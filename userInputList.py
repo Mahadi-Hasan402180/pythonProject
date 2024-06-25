@@ -1,7 +1,8 @@
-n = input("Enter a text of number: ")
-listt = n.split()
+n = input("Enter numbers : ")
+sumArray = n.split()
 sum = 0
-for i in listt:
+for i in sumArray:
+    print(i)
     sum += int(i)
 print("total sum of number : ", sum)
 
